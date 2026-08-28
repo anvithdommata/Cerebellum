@@ -1,0 +1,34 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Local secrets — keep the documented template tracked
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Local SQLite state and write-ahead-log files
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Logs and runtime artifacts
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

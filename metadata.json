@@ -1,0 +1,6 @@
+{
+  "name": "Cerebellum Research Platform",
+  "description": "An adaptive, multi-engine investment intelligence platform designed to evaluate and validate financial theses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
